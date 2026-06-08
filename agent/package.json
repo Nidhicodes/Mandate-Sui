@@ -1,0 +1,27 @@
+{
+  "name": "mandate-memory-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node --loader ts-node/esm src/server.ts",
+    "build": "tsc",
+    "deploy": "tsx src/deploy.ts"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.20.0",
+    "@mysten/walrus": "^0.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.12.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
