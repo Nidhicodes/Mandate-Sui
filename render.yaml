@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: mandate-memory-agent
+    runtime: node
+    rootDir: agent
+    buildCommand: npm install
+    startCommand: npx tsx src/server.ts
+    envVars:
+      - key: PORT
+        value: 3002
+      - key: SUI_NETWORK
+        value: testnet
+      - key: PACKAGE_ID
+        value: 0xa178dc05ac6fe50a10d555808b903badb94465e2a23f7f9a1c79764992672de7
+      - key: MANDATE_ID
+        value: 0x2f9a6a32b4202952c0926e6295bddbd4c6e5d4133ee6d7cd02374555e86747bf
+      - key: VAULT_ID
+        value: 0xb2fa78b6f4508b7c3e22f8f04f4f6640220fc991385a9d2abba92f36ac1b2239
+      - key: WALRUS_PUBLISHER_URL
+        value: https://walrus-testnet-publisher.nodes.guru
+      - key: WALRUS_AGGREGATOR_URL
+        value: https://walrus-testnet-aggregator.nodes.guru
+      - key: LLM_MODEL
+        value: llama-3.3-70b-versatile
+      - key: GROQ_API_KEY
+        sync: false
+      - key: AGENT_PRIVATE_KEY
+        sync: false
