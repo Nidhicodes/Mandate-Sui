@@ -6,12 +6,13 @@
 [![Sui Move](https://img.shields.io/badge/Sui_Move-Testnet-4DA2FF)](https://suiscan.xyz/testnet/object/0xa178dc05ac6fe50a10d555808b903badb94465e2a23f7f9a1c79764992672de7)
 [![Walrus](https://img.shields.io/badge/Walrus-Verifiable_Memory-6366F1)](https://walrus-testnet-aggregator.nodes.guru)
 [![Tests](https://img.shields.io/badge/Move-6_tests_passing-10B981)](mandate_memory/tests/)
+<img width="1406" height="713" alt="Screenshot 2026-06-08 at 1 53 20 PM" src="https://github.com/user-attachments/assets/14dc6465-ca90-463b-b0aa-07c0b0f88c30" />
 
 **AI agents reason freely. The Move contract enforces. Walrus proves every decision.**
 
 *A multi-agent system that manages DeFi positions under cryptographic mandate enforcement on Sui. Every reasoning cycle is stored as a verifiable blob on Walrus before any trade executes. The agent's authority is a Move object. Violations revert on-chain. The audit trail is cryptographic.*
 
-[Live Demo](#) · [Explorer (Package)](https://suiscan.xyz/testnet/object/0xa178dc05ac6fe50a10d555808b903badb94465e2a23f7f9a1c79764992672de7) · [Proven Trade](https://suiscan.xyz/testnet/tx/HkB9JwLiyZt3QdUimZKowCBVPGoaWYxHA366LJQrFyYz) · [Video](#)
+[Live](https://mandate-sui.vercel.app/) · [Explorer (Package)](https://suiscan.xyz/testnet/object/0xa178dc05ac6fe50a10d555808b903badb94465e2a23f7f9a1c79764992672de7) · [Proven Trade](https://suiscan.xyz/testnet/tx/HkB9JwLiyZt3QdUimZKowCBVPGoaWYxHA366LJQrFyYz) · [Video](https://youtu.be/H2IXLP0pDc4)
 
 </div>
 
